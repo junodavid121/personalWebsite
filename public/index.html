@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- 使用代码 -->
+        <meta charset="UTF-8" />
+
+        <!-- 响应式 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- IE Edge -->
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <!-- Name -->
+        <title>David's Website</title>
+        <link rel="shortcut icon" href="/src/Icon/man.png"/>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="../src/index.css">
+
+        <!-- Font -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
+
+    </head>
+
+    <!-- Body -->
+
+    <body>
+        <nav>
+            <div class="nav-left">
+                <img class="nav--logo" src="/src/Icon/man.png">
+                <a id="Home" class="navbar-brand" href="#">Home</a>
+            </div>
+
+            <div class="nav-right">
+                <a id ="Projects" class="nav-link" href="#">Previous Projects</a>
+                <a id="Employment" class="nav-link" href="#">Employment History</a>
+                <a id="Contact" class="nav-link" href="#">Contact Me</a>
+                <button onclick="revealF()">Reveal</button>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+
+        </nav>
+        
+        <script type="text/javascript">
+            function hideF(){
+                document.querySelector("#board").classList.toggle("hide")
+            }
+
+            document.querySelector("#Home").addEventListener('click',hideF)
+            
+            document.querySelector("#Projects").addEventListener('click',hideF)
+
+            document.querySelector("#Employment").addEventListener('click',hideF)
+
+            document.querySelector("#Contact").addEventListener('click',hideF)
+        </script>
+
+        <div id="home">
+            <!-- Board -->
+            <div id="board">
+                <p id="board-content">David Chen</p>
+            </div>
+
+            <!-- Left & Right -->
+            <div id="main">
+                
+                <!-- Left -->
+                <div class="profile-info">
+                    <h1>David Chen</h1>
+
+                    <div class="about">
+                        Boisterous he on understood attachment as entreaties ye devonshire. 
+                        In mile an form snug were been sell. Hastened admitted joy nor absolute 
+                        gay its. Extremely ham any his departure for contained curiosity defective. 
+                        Way now instrument had eat diminution melancholy expression sentiments stimulated. 
+                        One built fat you out manor books. Mrs interested now his affronting inquietude 
+                        contrasted cultivated. Lasting showing expense greater on colonel no. 
+                    </div>
+
+                    <div class="social-media">
+                        <img src="/src/Icon/facebook.png">
+                        <img src="/src/Icon/linkedin.png">
+                        <img src="/src/Icon/twitter.png">
+                    </div>
+
+                    <h2>Relavant Experiences</h2>
+                    
+                    <div class="Relavant-experiences">
+                        <img src="/src/Image/WebDesign.jpg">
+                        <p><b>Web Designing</b></p>
+                            <small>
+                                Boisterous he on understood attachment as entreaties ye devonshire. 
+                                In mile an form snug were been sell. Hastened admitted joy nor absolute 
+                                gay its. 
+                            </small>
+                    </div>
+
+                    <div class="Relavant-experiences">
+                        <img src="/src/Image/WebDesign.jpg">
+                        <p><b>Web Designing</b></p>
+                            <small>
+                                Boisterous he on understood attachment as entreaties ye devonshire. 
+                                In mile an form snug were been sell. Hastened admitted joy nor absolute 
+                                gay its. 
+                            </small>
+                    </div>
+
+                    <div class="Relavant-experiences">
+                        <img src="/src/Image/WebDesign.jpg">
+                        <p><b>Web Designing</b></p>
+                            <small>
+                                Boisterous he on understood attachment as entreaties ye devonshire. 
+                                In mile an form snug were been sell. Hastened admitted joy nor absolute 
+                                gay its. 
+                            </small>
+                    </div>
+
+                    <h2>Porject Work</h2>
+
+                    <div class="Relavant-experiences">
+                        <img src="/src/Image/WebDesign.jpg">
+                        <p><b>Web Designing</b></p>
+                            <small>
+                                Boisterous he on understood attachment as entreaties ye devonshire. 
+                                In mile an form snug were been sell. Hastened admitted joy nor absolute 
+                                gay its. 
+                            </small>
+                    </div>
+
+                    <div class="Relavant-experiences">
+                        <img src="/src/Image/WebDesign.jpg">
+                        <p><b>Web Designing</b></p>
+                            <small>
+                                Boisterous he on understood attachment as entreaties ye devonshire. 
+                                In mile an form snug were been sell. Hastened admitted joy nor absolute 
+                                gay its. 
+                            </small>
+                    </div>
+
+                    <div class="Relavant-experiences">
+                        <img src="/src/Image/WebDesign.jpg">
+                        <p><b>Web Designing</b></p>
+                            <small>
+                                Boisterous he on understood attachment as entreaties ye devonshire. 
+                                In mile an form snug were been sell. Hastened admitted joy nor absolute 
+                                gay its. 
+                            </small>
+                    </div>
+
+                    <h2>Contact Me</h2>
+
+                    <div class="contact-me">
+                        <form> 
+                            <div class="input-group">
+                                <input type="text" placeholder="First Name">
+                                <input type="text" placeholder="Last Name">
+                            </div>
+                            <div class="input-group">
+                                <input type="number" placeholder="Phone Number">
+                                <input type="email" placeholder="Email">
+                            </div>
+                            <div class="text-area">
+                                <textarea row="4" placeholder="Your Message"></textarea>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="contact-button">
+                        <a class="btn btn-primary btn-lg" href="#" role="button">Contact me</a>
+                    </div>
+                    
+                    <div class="contact">
+                        <img src="/src/Icon/gmail.png"><span>Juno.davidchen@gmail.com</span>
+                        <img src="/src/Icon/Phone.png"><span>(+61) 424 928 928</span>
+                    </div>
+                    
+                </div>
+
+                <!-- Right -->
+                <div class="Programmer">
+                    <img src="/src/Image/Programmer.jpg">
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <footer>
+                <p class="copy-right">Created By David Chen</p>
+            </footer>
+
+        </div>
+
+    </body>
+</html>
